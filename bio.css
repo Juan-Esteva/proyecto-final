@@ -1,0 +1,96 @@
+/*   Hoja de Estilos Proyecto Rick & Morty.   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  /* background-image: url('http://clipart-library.com/images/Biaro4B6T.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+}
+
+h2 {
+  color: black;
+  background-color: lightgray;
+}
+
+section {background-color: rgba(6, 200, 249, 0.5);
+}
+
+footer {background-color: rgba(6, 200, 249, 0.5);
+}
+
+.section-title {font Arial;
+font-size: 48px;
+margin: 0;
+padding: 15px 25px;
+}
+
+.texto, .bio {
+  font: "Open Sans";
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  padding: 10px;
+}
+
+.destacado {font-weight: bold; 
+}
+
+/* Estilizado de los botones del menú */
+/* Falta estilizar el a */
+
+.menu-button {background-color: #4CAF50; 
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 18px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu-button:hover {background-color: #3e8e41}
+
+.menu-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.plain-list {list-style-type: none;
+}
+
+.fondo {
+  background-color: rgba(208, 208, 225, 0.85);
+}
+/* Estilizado de la imagen que está en el header */
+
+
+header {
+  background-color: rgba(153, 102, 255, 0.85) ;
+  padding: 20px;
+}
+
+#enc-img {
+  width: 50%;
+}
+
+#enc-logo {
+  width: 100%;
+}
+
+.fake {
+    padding: 20px;
+}

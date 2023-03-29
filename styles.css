@@ -1,0 +1,140 @@
+/*.  Hoja de Estilos Proyecto Rick & Morty.   */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-image: url('https://img.freepik.com/foto-gratis/texturas-inspiradas-luna_52683-88933.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 5px;
+}
+
+h2 {
+  color: black;
+  background-color: lightgray;
+}
+
+section {background-color: rgba(6, 200, 249, 0.5);
+}
+
+.section-title {font Arial;
+font-size: 48px;
+margin: 0;
+padding: 15px 25px;
+}
+
+.texto, .bio {
+  font: "Open Sans";
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  padding: 10px;
+}
+
+.destacado {font-weight: bold; 
+}
+
+/* Estilizado de los botones del menú */
+/* Falta estilizar el a */
+
+.menu-button {
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  font-size: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.menu-button:hover {background-color: #3e8e41}
+
+.menu-button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.plain-list {list-style-type: none;
+}
+
+.fondo {
+  background-color: rgba(208, 208, 225, 0.85);
+}
+/* Estilizado de la imagen que está en el header */
+
+
+header, nav {
+  background-color: rgba(6, 200, 249, 0.8); 
+  background-color: black;
+  border: solid 10px lightgray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  background-color: black;
+  border: solid 5px yellow;
+}
+
+footer {
+  background-color: rgba(6, 200, 249, 0.5);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer div ul li a {
+  text-decoration: none;
+  color: black;
+}
+#enc-img {
+  width: 10%;
+}
+
+#enc-logo {
+  width: 10%;
+}
+
+#section-title-div {
+  background-color: red;
+  padding: 10px;
+  display: inline;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: rgba(230, 250, 255, 0.8);
+  margin: 30px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 25px;
+}
+.grid-item {
+  text-align: center;
+}
+.grid-item img {
+  width: 150px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+div ul {
+  list-style: none;
+}

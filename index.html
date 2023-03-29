@@ -1,0 +1,135 @@
+<!--- Fake Change for GIT.--->
+<!DOCTYPE html>
+<!---  1 hora 22 minutes --->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Final: Rick & Morty</title>
+    <link rel="stylesheet" href="estilos\styles.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  </head>
+  
+<body>
+  
+  <header>
+    <img id="enc-img" src="https://rickandmorty-finalproject-mairaledesma.vercel.app/img/rickandmorty-image.png" alt="Rick & Morty">
+    <img id="enc-logo" src="https://rickandmorty-finalproject-mairaledesma.vercel.app/img/logo-rickandmorty.png" alt="Logotipo de Rick &  Morty">
+    <nav>
+    <!--
+    En lugar de lista hacer el menú con
+Buttons transparentes con bordes redondeados
+y sombra
+    
+      <ul>
+        
+        <li>Sinopsis</li>
+        <li>Personajes</li>
+        <li>Ver el show</li>
+        
+      </ul>
+      
+      Ver: 
+      
+      https://www.w3schools.com/css/css3_buttons.aspectos
+      
+      --->
+      <button class="menu-button"><a href="#sinopsis">Sinopsis</a></button>
+      <button class="menu-button"><a href="#personajes">Personajes</a></button>
+      <button class="menu-button"><a href="#ver-serie">Ver el show</a></button>
+      <button class="menu-button"><a href="bio.html" target="_blank">Biografía</a></button>
+      
+    </nav>
+    
+    
+  </header>
+  
+  <main class="fondo">
+    
+    <!--- El atributo id individualiza el elemento section dentro del código HTML por ejemplo para implementar un enlace interno, del menú principal a la sección correspondiente o para manipularlo desde JS.
+    
+    El atributo class en cambio permite estilizar desde CSS varios elementos que comparten similares aspectos visuales: tipografía, color de fondo, ancho de pantalla, etc.
+    El id es único para cada elemento de un documento HTML, en cambio el atributo class puede ser compartido por varios 
+    
+    Ver aquí: https://www.w3schools.com/html/html_id.aspectos
+    
+    <h2 id="C4">Chapter 4</h2>
+    <a href="#C4">Jump to Chapter 4</a>
+    
+    --->
+    
+    <section id="sinopsis" class="sinopsis">
+      <!--- Nota: Las imágenes por ahora estan tomadas del modelo de proyecto de Rick & Morty porque todavía no se como seleccionarlas desde la API --->
+      <div id="section-title-div">
+        <img src="https://rickandmorty-finalproject-mairaledesma.vercel.app/img/Rick_and_Morty_Season_1.webp" alt="Rick & Morty" width="20px">
+        <h2 class="section-title">Sinopsis</h2>
+      </div>
+      <p id="sinopsis-1" class="texto">La serie sigue las desventuras del cínico científico loco Rick Sanchez y su bondadoso pero inquieto nieto Morty Smith, quienes dividen su tiempo entre la vida doméstica y las aventuras interdimensionales que tienen lugar en un número infinito de realidades, a menudo viajando a otros planetas y dimensiones a través de  portales y en el platillo volador de Rick.</p>
+      <p id="sinopsis-2" class="texto">El concepto general de Rick y Morty se basa en dos escenarios en conflicto: el drama familiar doméstico y un abuelo alcohólico que arrastra a su nieto a travesuras.</p>
+      <p class="texto"><span class="destacado">Creada por:</span> Justin Roiland y Dan Harmon.</p>
+      <p class="texto"><span class="destacado">Lanzamiento:</span> 2013.</p>
+      <p class="texto"><span class="destacado">País de origen:</span> Estados Unidos.</p>
+      
+      
+    </section>
+    
+    <section id="personajes" class="personajes">
+     <!--- Esta parte del código es solo una idea de como estructuraria la ficha de cada personaje porque todavía no vimos como rellenar los datos con JS --->
+      <h2 class="section-title">Personajes</h2>
+      
+        <div class="grid-item">
+          <img src="https://rickandmortyapi.com/api/character/avatar/1.jpeg" alt="">
+          <h3>Nombre del Personaje</h3>
+          <ul>
+            <li>Género</li>
+            <li>Especie</li>
+            <li>Estado</li>
+          </ul>
+        </div>
+        
+        <div class="grid-item">
+          <img src="https://rickandmortyapi.com/api/character/avatar/2.jpeg" alt="">
+          <h3>Nombre del Personaje</h3>
+          <ul>
+            <li>Género</li>
+            <li>Especie</li>
+            <li>Estado</li>
+          </ul>
+        </div>
+        
+        <!--- El contenido se carga con JS --->
+       
+      </div>
+      
+    </section>
+    
+    <section id="ver-serie" class="ver-serie">
+      <img src="" alt="">
+      <h2 class="section-title">Ver el Show</h2>
+      <p class="texto">Las 6 temporadas de Rick and Morty están disponibles en HBO Max.  Tiene un total de 61 episodios.</p>
+    </section>
+    
+
+  </main>
+  
+  <footer class="fondo">
+    <div>
+      <h3>Hecho con 🩸, 😓, y 😭 por el Dr. Chip</h3>
+      <p class="destacado">Desarrollador Web Inicial</p>
+      <p class="destacado">Febrero / Abril de 2023</p>
+      <p><span class="destacado">Profesor:</span> Gabriel Alberini</p>
+      <p><span class="destacado">Comisión:</span> 172</p>
+    </div>
+    <div id="Contacto">
+      <ul id="contacto"class="plain-list">
+        <li><a href="https://github.com/Juan-Esteva" target="_blank"><img src="https://img2.freepng.es/20180716/tza/kisspng-github-computer-icons-clip-art-gits-5b4d20ab1f4131.145288281531781291128.jpg"  alt="GitHub" width="18px"> Mi perfil de GitHub</a></li>
+        <li><a href="mailto:dr.chip.up4@gmail.com">📬 Escribime</a></li>
+        <li><a href="https://wa.me/+542914612936?text=Dejame tu mensaje y me comunicaré a la brevedad " target="_blank"><img src="https://w7.pngwing.com/pngs/104/113/png-transparent-whatsapp-graphics-computer-icons-instant-messaging-whatsapp-logo-desktop-wallpaper-instant-messaging.png" alt="WhatsApp" width="18px"> WhatsAppeame</a></li>
+      </ul>
+    </div>
+  </footer>
+  
+</body>
+
+</html>

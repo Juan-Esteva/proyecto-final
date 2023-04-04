@@ -3,19 +3,38 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Verdana, Calibri, Serif;
 }
 
 body {
-  background-color: yellowgreen;
   background-image: url('https://thumbs2.imgbox.com/16/b7/8aKCFNFe_t.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 30px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.container, header, main, footer {
-  background-color: rgba(179, 255, 255, 0.2);
+header, main, footer {
+  margin: 5px;
+  padding: 5px;
+  background-color: rgba(133, 133, 173, 0.5);
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#enc-img {
+  width: 150px;
+}
+
+#enc-logo {
+  width: 250px;
+}
+
+.container {
+  background-color: rgba(0, 204, 204, 0.5);
 }
 
 h2 {
@@ -26,10 +45,15 @@ h2 {
   border-radius: 5px;
 }
 
+.sinopsis {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .container {
-  /* background-color: violet; */
   padding: 30px;
   display: flex;
+  /* La siguiente propiedad hace que el contenido vaya a la siguiente fila si se supera el ancho del contenedor */
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -58,4 +82,32 @@ h2 {
 
 .destacado {
   font-weight: bold; 
+}
+
+.menu-button {
+  padding: 5px;
+  margin: 5px;
+  color: black;
+  border-radius: 5px;
+  background-color: rgba(179, 255, 255, 0.6);
+  border: double;
+}
+
+nav button a {
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div ul {
+  list-style: none;
+}
+
+footer div ul a {
+  text-decoration: none;
 }

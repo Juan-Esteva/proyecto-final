@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", Helvetica, sans-serif;
+  background-color: lightblue;
 }
 /*        Estilo imágenes       */
 .foto {
@@ -27,41 +28,38 @@
   padding: 10px;
 }
 
-
-/* De aquí para abajo revisar  */
-
-a {
-  text-decoration: none;
+.bio h2 {
+  text-align: center;
 }
 
-body {
-  /* background-image: url('http://clipart-library.com/images/Biaro4B6T.jpg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 5px;
+.music {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
 }
 
-h2 {
-  color: black;
-  background-color: lightgray;
+.singer {
+  text-align: center;
 }
 
-section {background-color: rgba(6, 200, 249, 0.5);
+.singer img {
+  width: 150px;
+  margin: 10px;
+  border-radius: 10px;
 }
 
-footer {background-color: rgba(6, 200, 249, 0.5);
+.singer-name {
+  font-size: 10px;
+  font-style: bold;
 }
 
-.section-title {font Arial;
-font-size: 48px;
-margin: 0;
-padding: 15px 25px;
+.song-title {
+  font-size: 12px;
+  font-style: bold italic;
 }
 
-
-
-
-.fondo {
-  background-color: rgba(208, 208, 225, 0.85);
+.song-writer {
+  font-size: 9px;
+  font-style: normal italic;
 }
-/* Estilizado de la imagen que está en el header */
+

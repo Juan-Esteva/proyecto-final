@@ -7,14 +7,30 @@
   background-color: lightblue;
 }
 /*        Estilo imágenes       */
-.foto {
+.foto img {
   width: 100%;
+  padding: 10px;
   text-align: center;
+  border-radius: 5px;
+  justify-content: center;
 }
+
+.retrato img {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.foto a {
+  text-decoration: none;
+}
+
 /*   Estilo leyenda imágenes   */
 .leyenda {
   font-size: 10px;
-  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  text-align: center;
 }
 /*      Texto destacado       */
 .destacado {font-weight: bold; 
@@ -29,7 +45,12 @@
 }
 
 .bio h2 {
+  margin: 20px;
+  padding: 10px ;
+  background-color: rgba(255, 255, 255, 0.444);
+  font-size: 40px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .music {
@@ -63,4 +84,3 @@
   font-size: 9px;
   font-style: normal italic;
 }
-

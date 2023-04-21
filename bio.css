@@ -27,10 +27,14 @@
 }
 
 /*   Estilo leyenda imágenes   */
-.leyenda {
+.leyenda, .leyenda-2 {
   font-size: 10px;
   padding: 10px;
   text-align: center;
+}
+
+.leyenda-2 {
+  font-size: 14px;
 }
 /*      Texto destacado       */
 .destacado {font-weight: bold; 
@@ -44,7 +48,7 @@
   padding: 10px;
 }
 
-.bio h2 {
+.bio h2, .bio h3 {
   margin: 20px;
   padding: 10px ;
   background-color: rgba(255, 255, 255, 0.444);
@@ -53,6 +57,9 @@
   border-radius: 10px;
 }
 
+.bio h3 {
+  font-size: 18px;
+}
 .music {
   display: flex;
   flex-wrap: wrap;
